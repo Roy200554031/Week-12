@@ -1,0 +1,92 @@
+/* General styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header and footer styles */
+header, footer {
+    background-color: #125784;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+/* Navigation styles */
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav input {
+    padding: 0.5em;
+    border-radius: 5px;
+    border: none;
+}
+
+/* Banner section styles */
+.banner {
+    background: url('../images/banner-image.jpg') no-repeat center center/cover;
+    text-align: center;
+    color: white;
+    padding: 5em 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Intro section styles */
+.intro {
+    background-color: #f57f17;
+    color: white;
+    padding: 2em;
+    text-align: center;
+}
+
+/* Gallery section styles */
+.gallery {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    padding: 2em 0;
+}
+
+.gallery img {
+    width: 30%;
+    height: auto;
+}
+
+/* Form section styles */
+.form-section {
+    background-color: #5e35b1;
+    padding: 2em;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+}
+
+input, textarea, button {
+    width: 80%;
+    padding: 0.5em;
+    border: none;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #125784;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0e4368;
+}
